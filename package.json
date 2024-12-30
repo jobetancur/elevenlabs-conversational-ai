@@ -1,0 +1,22 @@
+{
+  "name": "elevenlabs-conversational-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:frontend": "vite",
+    "dev:backend": "node backend/server.js",
+    "dev": "npm run dev:frontend & npm run dev:backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11labs/client": "^0.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "vite": "^6.0.6"
+  }
+}
