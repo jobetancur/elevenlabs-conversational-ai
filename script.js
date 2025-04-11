@@ -8,7 +8,7 @@ const agentStatus = document.getElementById('agentStatus');
 let conversation;
 
 async function getSignedUrl() {
-    const response = await fetch('http://localhost:3001/api/get-signed-url');
+    const response = await fetch('http://localhost:3028/api/get-signed-url');
     if (!response.ok) {
         throw new Error(`Failed to get signed url: ${response.statusText}`);
     }
